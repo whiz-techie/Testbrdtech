@@ -1,23 +1,19 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import './team.css';
+import Banner2 from "../Banner2";
+import { FaFacebook, FaInstagram, FaLinkedin, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 function Team () {
     let message = `There are many variations of passages of Lorem Ipsum available but the \n majority have suffered alteration in some injected humour.`;
     return (
-      <section class="section-white ">
+      <section class=" ">
  
     <div >
  
         <div class="row">
        
-                    <div class="col-md-12 text-center">
-
-                          <h2 class=" text-[20px] text-black section-title">The Team Behind Pacifico</h2>
-
-                          <p class=" text-gray-500 section-subtitle">{message}</p>
-                          
-                    </div> 
+          <Banner2 text={"Team"}/>
           <div className="flex flex-wrap justify-around pt-[60px]">
 
 
@@ -33,19 +29,54 @@ function Team () {
                       <ul class="team-icon">
                       
                           <li><a href="#" class="twitter">
-                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-twitter">
+                            <FaTwitter
+          color="gray.800"
+          _dark={{
+            color: "white",
+          }}
+          h="20px"
+            w="20px"
+            />
+                            </i>
                         </a></li>
-                          
+
                           <li><a href="#" class="pinterest">
-                            <i class="fa fa-pinterest"></i>
+                            <i class="fa fa-pinterest">
+                            <FaLinkedinIn
+          _dark={{
+            color: "white",
+          }}
+          h="20px"
+          w="20px"
+        />
+                            </i>
                         </a></li>
                           
                           <li><a href="#" class="facebook">
-                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-facebook">
+                            <FaFacebook
+          color="gray.800"
+          _dark={{
+            color: "white",
+          }}
+          h="20px"
+          w="20px"
+          
+        />
+                            </i>
                         </a></li>
                           
                           <li><a href="#" class="dribble">
-                            <i class="fa fa-dribbble"></i>
+                            <i class="fa fa-dribbble">
+                            <FaInstagram
+          _dark={{
+            color: "white",
+          }}
+          h="20px"
+          w="20px"
+        />
+                            </i>
                         </a></li>
                           
                       </ul>
@@ -67,13 +98,56 @@ function Team () {
                   
                       <ul class="team-icon">
                       
-                          <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="#" class="twitter">
+                            <i class="fa fa-twitter">
+                            <FaTwitter
+          color="gray.800"
+          _dark={{
+            color: "white",
+          }}
+          h="20px"
+            w="20px"
+            />
+                            </i>
+                        </a></li>
+
+                          <li><a href="#" class="pinterest">
+                            <i class="fa fa-pinterest">
+                            <FaLinkedinIn
+          _dark={{
+            color: "white",
+          }}
+          h="20px"
+          w="20px"
+        />
+                            </i>
+                        </a></li>
                           
-                          <li><a href="#" class="pinterest"><i class="fa fa-pinterest"></i></a></li>
+                          <li><a href="#" class="facebook">
+                            <i class="fa fa-facebook">
+                            <FaFacebook
+          color="gray.800"
+          _dark={{
+            color: "white",
+          }}
+          h="20px"
+          w="20px"
+          
+        />
+                            </i>
+                        </a></li>
                           
-                          <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
-                          
-                          <li><a href="#" class="dribble"><i class="fa fa-dribbble"></i></a></li>
+                          <li><a href="#" class="dribble">
+                            <i class="fa fa-dribbble">
+                            <FaInstagram
+          _dark={{
+            color: "white",
+          }}
+          h="20px"
+          w="20px"
+        />
+                            </i>
+                        </a></li>
                           
                       </ul>
                       
@@ -94,14 +168,55 @@ function Team () {
                   
                       <ul class="team-icon">
                       
-                          <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="#" class="twitter">
+                            <i class="fa fa-twitter">
+                            <FaTwitter
+          color="gray.800"
+          _dark={{
+            color: "white",
+          }}
+          h="20px"
+            w="20px"
+            />
+                            </i>
+                        </a></li>
+
+                          <li><a href="#" class="pinterest">
+                            <i class="fa fa-pinterest">
+                            <FaLinkedinIn
+          _dark={{
+            color: "white",
+          }}
+          h="20px"
+          w="20px"
+        />
+                            </i>
+                        </a></li>
                           
-                          <li><a href="#" class="pinterest"><i class="fa fa-pinterest"></i></a></li>
-                          
-                          <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                          <li><a href="#" class="facebook">
+                            <i class="fa fa-facebook">
+                            <FaFacebook
+          color="gray.800"
+          _dark={{
+            color: "white",
+          }}
+          h="20px"
+          w="20px"
+          
+        />
+                            </i>
+                        </a></li>
                           
                           <li><a href="#" class="dribble">
-                            <i class="fa fa-dribbble"></i>
+                            <i class="fa fa-dribbble">
+                            <FaInstagram
+          _dark={{
+            color: "white",
+          }}
+          h="20px"
+          w="20px"
+        />
+                            </i>
                         </a></li>
                           
                       </ul>

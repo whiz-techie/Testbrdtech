@@ -298,11 +298,13 @@ const ContactForm = () => {
           >
             <Button
               type="submit"
-              colorScheme="brand"
+              variant='outline'
+              colorScheme='blue'
               _focus={{
                 shadow: "",
               }}
-              fontWeight="md"
+              fontWeight="bl"
+              size='lg'
             >
               Save
             </Button>

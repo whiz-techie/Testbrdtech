@@ -6,11 +6,12 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className=''>
+    <div >
       <Box
-  bg="white"
+      className=''
+  bg="gray.100"
   _dark={{
-    bg: "gray.600",
+    bg: "gray.500",
   }}
 >
   <Stack
@@ -157,7 +158,7 @@ const Footer = () => {
       &copy;Copyright. All rights reserved.
     </Text>
   </VStack>
-</Box>;
+</Box>
 
     </div>
   )

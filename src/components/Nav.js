@@ -5,7 +5,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 const Nav = () => {
-    const bg = useColorModeValue("#1A202C", "gray.800");
+    const bg = useColorModeValue("#666DB3", "gray.800");
     const mobileNav = useDisclosure();
     return (
       <React.Fragment>
@@ -59,9 +59,9 @@ const Nav = () => {
                   
                   <Button className='navbutton' mr={10} color={'white'} variant="ghost">About</Button>
                     </a>
-                    <a >
+                    <a href='/contact'>
                   
-                  <Button className='navbutton' color={'white'} variant="ghost">Sign in</Button>
+                  <Button className='navbutton' color={'white'} variant="ghost">Contact Us</Button>
                     </a> 
                
                 </div>
@@ -86,7 +86,9 @@ const Nav = () => {
                     color: "inherit",
                   }}
                   variant="ghost"
-                  icon={<HamburgerIcon />}
+                  icon={<HamburgerIcon
+                    value={{ color: 'blue', }}
+                    />}
                   onClick={mobileNav.onOpen}
                 />
   
@@ -113,22 +115,23 @@ const Nav = () => {
                     aria-label="Close menu"
                     onClick={mobileNav.onClose}
                   />
-
-                  <Button className='navbutton' color={'white'} w="full" variant="ghost">
-                    Features
-                  </Button>
-                  <Button className='navbutton' color={'white'} w="full" variant="ghost">
-                    Pricing
-                  </Button>
-                  <Button className='navbutton' color={'white'} w="full" variant="ghost">
-                    Team
-                  </Button>
-                  <Button className='navbutton' color={'white'} w="full" variant="ghost">
-                    About US
-                  </Button>
-                  <Button className='navbutton' color={'white'} w="full" variant="ghost">
-                    Sign in
-                  </Button>
+          <a href='/'> 
+                <Button className='navbutton' color={'white'} variant="ghost">Home</Button>
+                </a>
+                <a href='/services'>
+                <Button className='navbutton' color={'white'} variant="ghost">Services</Button>
+                </a>
+                <a href='/team'>
+                <Button className='navbutton' color={'white'} variant="ghost">Team</Button>
+                  </a>
+                  <a href='/about'>
+                  
+                  <Button className='navbutton'color={'white'} variant="ghost">About</Button>
+                    </a>
+                    <a href='/contact'>
+                  
+                  <Button className='navbutton' color={'white'} variant="ghost">Contact Us</Button>
+                    </a> 
                 </VStack>
               </Box>
             </HStack>

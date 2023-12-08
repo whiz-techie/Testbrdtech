@@ -16,9 +16,9 @@ const Banner2 = ({text}) => {
             //   lg: 28,
             //   xl: 32,
             // }}
-            maxW={{
-              lg: "2xl",
-            }}
+            // maxW={{
+            //   lg: "2xl",
+            // }}
             w={{
               lg: "full",
             }}
@@ -48,9 +48,9 @@ const Banner2 = ({text}) => {
             </Icon>
             <Box
               mx="auto"
-              maxW={{
-                base: "7xl",
-              }}
+            //   maxW={{
+            //     base: "7xl",
+            //   }}
               px={{
                 base: 4,
                 sm: 6,
@@ -68,7 +68,7 @@ const Banner2 = ({text}) => {
                 w="full"
                 textAlign={{
                   sm: "center",
-                  lg: "left",
+                  lg: "center",
                 }}
                 justifyContent="center"
                 alignItems="center"
@@ -115,7 +115,7 @@ const Banner2 = ({text}) => {
                   }}
                   mx={{
                     sm: "auto",
-                    lg: 0,
+                    // lg: 0,
                   }}
                   color="#707F94"
                 >
@@ -133,7 +133,7 @@ const Banner2 = ({text}) => {
                   }}
                   justifyContent={{
                     sm: "center",
-                    lg: "start",
+                    lg: "center",
                   }}
                   fontWeight="extrabold"
                   fontFamily="fantasy"
