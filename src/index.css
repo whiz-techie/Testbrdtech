@@ -25,3 +25,14 @@ code {
 .navclose:hover {
   color: #ffffff;
 }
+
+.Card-Image-Section{
+  /* transition: 200ms ease-in-out; */
+  background-color: red;
+}
+
+.Card-Image{
+  transition: 200ms ease-in-out;
+  background-color: blue;
+  transition: 200ms ease-in-out;
+}

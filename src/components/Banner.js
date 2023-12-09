@@ -1,14 +1,22 @@
 import React from 'react'
 import { Icon, IconButton, VStack, useColorModeValue, useDisclosure, chakra, Flex, Button,VisuallyHidden,HStack,Box,CloseButton } from '@chakra-ui/react';
-
+import { motion } from "framer-motion"
+import BannerImage from './Sections/BannerImage';
+import tempimage from '../assets/logo192.png'
 
 const Banner = () => {
     const bg = useColorModeValue("white", "gray.800");
     return (
       <Box pos="relative" overflow="hidden" bg={bg} mt={10}>
-        <Box maxW="7xl" mx="auto">
+
+        
+        <Box 
+        className=' flex flex-col-reverse md:flex-row '
+        maxW="7xl" mx="auto">
+          
           <Box
-            pos="relative"
+          className=''
+            // pos="relative"
             pb={{
               base: 8,
               sm: 16,
@@ -26,7 +34,8 @@ const Banner = () => {
             bg={bg}
             border="solid 1px transparent"
           >
-            <Icon
+            
+            {/* <Icon
               display={{
                 base: "none",
                 lg: "block",
@@ -45,8 +54,9 @@ const Banner = () => {
               aria-hidden="true"
             >
               <polygon points="50,0 100,0 50,100 0,100" />
-            </Icon>
+            </Icon> */}
             <Box
+            className='hello'
               mx="auto"
               maxW={{
                 base: "7xl",
@@ -57,20 +67,22 @@ const Banner = () => {
                 lg: 8,
               }}
               mt={{
-                base: 10,
+                base: 3,
                 sm: 12,
                 md: 16,
                 lg: 20,
                 xl: 28,
               }}
             >
+              <div className="">
               <Box
-                w="full"
+             
+                // w="full"
                 textAlign={{
                   sm: "center",
                   lg: "left",
                 }}
-                justifyContent="center"
+                justifyContent="left"
                 alignItems="center"
               >
                 <chakra.h1
@@ -131,113 +143,52 @@ const Banner = () => {
                   lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
                   fugiat aliqua.
                 </chakra.p>
-                <Box
-                  mt={{
-                    base: 5,
-                    sm: 8,
-                  }}
-                  display={{
-                    sm: "flex",
-                  }}
-                  justifyContent={{
-                    sm: "center",
-                    lg: "start",
-                  }}
-                  fontWeight="extrabold"
-                  fontFamily="fantasy"
-                >
-                  {/* <Box rounded="full" shadow="md">
-                    <chakra.a
-                      w="full"
-                      display="flex"
-                      alignItems="center"
-                      justifyContent="center"
-                      border="solid 1px transparent"
-                      fontSize={{
-                        base: "md",
-                        md: "lg",
-                      }}
-                      rounded="md"
-                      color="white"
-                      bg="#3C4178"
-                      _hover={{
-                        bg: "brand.700",
-                      }}
-                      px={{
-                        base: 8,
-                        md: 10,
-                      }}
-                      py={{
-                        base: 3,
-                        md: 4,
-                      }}
-                      cursor="pointer"
-                    >
-                      <p>get started</p>
-                    </chakra.a>
-                  </Box>
-                  <Box mt={[3, 0]} ml={[null, 3]}>
-                    <chakra.a
-                      w="full"
-                      display="flex"
-                      alignItems="center"
-                      justifyContent="center"
-                      px={{
-                        base: 8,
-                        md: 10,
-                      }}
-                      py={{
-                        base: 3,
-                        md: 4,
-                      }}
-                      border="solid 1px transparent"
-                      fontSize={{
-                        base: "md",
-                        md: "lg",
-                      }}
-                      rounded="md"
-                      color="brand.700"
-                      bg="#CBCEEB"
-                      _hover={{
-                        bg: "brand.200",
-                      }}
-                      cursor="pointer"
-                    >
-                      Live demo
-                    </chakra.a>
-                  </Box> */}
                 </Box>
+           
+              </div>
+           
               </Box>
+
+              
             </Box>
+            <Box
+            className=' flex justify-center sm:items-center'
+            pb={{
+              md: 20,
+              lg: 28,
+              xl: 32,
+            }}
+            maxW={{
+              lg: "2xl",
+            }}
+            w={{
+              lg: "full",
+            }}
+            zIndex={1}
+            bg={bg}
+            border="solid 1px transparent"
+          >
+              <motion.div
+                animate={{
+                scale: [2, 1, 1],
+                rotate: [0, 0, 540],
+                borderRadius: ["20%", "20%", "50%", "50%", "20%"],
+                opacity: ["0%", "10%", "20%", "30%", "40%", "50%", "60%", "70%", "80%", "90%", "100%"]
+                
+            }}
+            transition={{ ease: "easeInOut", duration: 2}}
+            >
+
+              <div>
+                <img src={tempimage} />
+              </div>
+    </motion.div>
+
+              
+            </Box>
+            
           </Box>
-        </Box>
-        {/* <Box
-          position={{
-            lg: "absolute",
-          }}
-          top={{
-            lg: 0,
-          }}
-          bottom={{
-            lg: 0,
-          }}
-          right={{
-            lg: 0,
-          }}
-          w={{
-            lg: "50%",
-          }}
-          border="solid 1px transparent"
-        >
-          <Image
-            h={[56, 72, 96, "full"]}
-            w="full"
-            fit="cover"
-            src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
-            alt=""
-            loading="lazy"
-          />
-        </Box> */}
+          
       </Box>
     );
   };
