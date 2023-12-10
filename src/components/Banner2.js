@@ -3,7 +3,7 @@ import { Icon, IconButton, VStack, useColorModeValue, useDisclosure, chakra, Fle
 
 
 const Banner2 = ({text}) => {
-    const bg = useColorModeValue("white", "gray.800");
+    const bg = useColorModeValue("transparent", "gray.800");
     return (
       <Box pos="relative" overflow="hidden" bg={bg}>
         <Box maxW="7xl" mx="auto">

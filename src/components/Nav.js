@@ -5,7 +5,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 const Nav = () => {
-    const bg = useColorModeValue("#666DB3", "gray.800");
+    const bg = useColorModeValue("#ffffff", "gray.800");
     const mobileNav = useDisclosure();
     return (
       <React.Fragment>
@@ -30,7 +30,7 @@ const Nav = () => {
                 {/* <Logo /> */}
                 <VisuallyHidden>Choc</VisuallyHidden>
               </chakra.a>
-              <chakra.h1 color={'white'} fontSize="xl" fontWeight="medium" ml="2">
+              <chakra.h1 color={'black'} fontSize="xl" fontWeight="medium" ml="2">
                 logo
               </chakra.h1>
             </Flex>
@@ -47,21 +47,21 @@ const Nav = () => {
                 <div className=''>
 
                 <a href='/'> 
-                <Button className='navbutton' color={'white'} variant="ghost">Home</Button>
+                <Button className='navbutton' color={'black'} variant="ghost">Home</Button>
                 </a>
                 <a href='/services'>
-                <Button className='navbutton' color={'white'} variant="ghost">Services</Button>
+                <Button className='navbutton' color={'black'} variant="ghost">Services</Button>
                 </a>
                 <a href='/team'>
-                <Button className='navbutton' color={'white'} variant="ghost">Team</Button>
+                <Button className='navbutton' color={'black'} variant="ghost">Team</Button>
                   </a>
                   <a href='/about'>
                   
-                  <Button className='navbutton' mr={10} color={'white'} variant="ghost">About</Button>
+                  <Button className='navbutton' mr={10} color={'black'} variant="ghost">About</Button>
                     </a>
                     <a href='/contact'>
                   
-                  <Button className='navbutton' color={'white'} variant="ghost">Contact Us</Button>
+                  <Button className='navbutton' color={'black'} variant="ghost">Contact Us</Button>
                     </a> 
                
                 </div>
@@ -94,7 +94,7 @@ const Nav = () => {
   
                 <VStack
                 zIndex={100}
-                className='navbutton' color={'white'}
+                className='navbutton' color={'black'}
                   pos="absolute"
                   top={0}
                   left={0}
@@ -116,21 +116,21 @@ const Nav = () => {
                     onClick={mobileNav.onClose}
                   />
           <a href='/'> 
-                <Button className='navbutton' color={'white'} variant="ghost">Home</Button>
+                <Button className='navbutton' color={'black'} variant="ghost">Home</Button>
                 </a>
                 <a href='/services'>
-                <Button className='navbutton' color={'white'} variant="ghost">Services</Button>
+                <Button className='navbutton' color={'black'} variant="ghost">Services</Button>
                 </a>
                 <a href='/team'>
-                <Button className='navbutton' color={'white'} variant="ghost">Team</Button>
+                <Button className='navbutton' color={'black'} variant="ghost">Team</Button>
                   </a>
                   <a href='/about'>
                   
-                  <Button className='navbutton'color={'white'} variant="ghost">About</Button>
+                  <Button className='navbutton'color={'black'} variant="ghost">About</Button>
                     </a>
                     <a href='/contact'>
                   
-                  <Button className='navbutton' color={'white'} variant="ghost">Contact Us</Button>
+                  <Button className='navbutton' color={'black'} variant="ghost">Contact Us</Button>
                     </a> 
                 </VStack>
               </Box>
