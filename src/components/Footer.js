@@ -1,7 +1,7 @@
 import { Box, Divider, Flex, HStack, Icon, Image, Link, Stack, Text, VStack } from '@chakra-ui/react'
 import React from 'react'
 import { FaFacebookF, FiTwitter, GrInstagram, FaLinkedinIn } from '@chakra-ui/icons'
-import logo from "../assets/logo192.png"
+import logo from "../assets/Finance_logo.png"
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
@@ -9,7 +9,7 @@ const Footer = () => {
     <div >
       <Box
       className=''
-  bg="gray.100"
+  bg="white"
   _dark={{
     bg: "gray.500",
   }}
@@ -60,7 +60,7 @@ const Footer = () => {
           }}
     >
       <Flex justify="start" direction="column">
-          <Image width={"100px"} height={"100px"} src={logo} ></Image>
+          <Image width={"100px"} height={"110px"} src={logo} ></Image>
       </Flex>  
    
     </HStack>
@@ -81,17 +81,17 @@ const Footer = () => {
         md: "left",
       }}
     >
-      <Flex justify="start" direction="column">
-        <Link textTransform="uppercase">Home</Link>
-        <Link textTransform="uppercase">Services</Link>
-        <Link textTransform="uppercase">Contact us</Link>
+      <Flex className=' font-semibold text-[#EBA91F]' justify="start" direction="column">
+        <Link href='/' textTransform="uppercase">Home</Link>
+        <Link href='/cervices' textTransform="uppercase">Services</Link>
+        <Link href='contact' textTransform="uppercase">Contact us</Link>
         
       </Flex>
 
-      <Flex justify="start" direction="column">
-        <Link textTransform="uppercase">Team</Link>
-        <Link textTransform="uppercase">FAQ</Link>
-        <Link textTransform="uppercase">About</Link>
+      <Flex className=' font-semibold text-[#EBA91F]' justify="start" direction="column">
+        <Link href='/team' textTransform="uppercase">Team</Link>
+        <Link href='/swap' textTransform="uppercase">Swap</Link>
+        <Link href='/about' textTransform="uppercase">About</Link>
       </Flex>
     </HStack>
 
@@ -128,6 +128,9 @@ const Footer = () => {
           w="20px"
         />
       </Link>
+      <a>
+        
+      </a>
       <Link>
         <FaInstagram
           _dark={{

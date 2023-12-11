@@ -13,7 +13,7 @@ const Home = () => {
 
         <Goals />
         </div>
-        <div className='flex w-full justify-center mt-[200px]'>
+        <div className='flex w-full justify-center mt-[40px]'>
         {/* <div className=' grid grid-cols-5 '> */}
           {/* <div></div> */}
         <Timeline/>

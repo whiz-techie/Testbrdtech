@@ -1,7 +1,7 @@
 import React from 'react'
 import { Icon, IconButton, VStack, useColorModeValue, useDisclosure, chakra, Flex, Button,VisuallyHidden,HStack,Box,CloseButton } from '@chakra-ui/react';
 import { motion } from "framer-motion"
-import BannerImage from './Sections/BannerImage';
+import logo from "./../assets/Finance_logo.png"
 import tempimage from '../assets/logo192.png'
 
 const Banner = () => {
@@ -108,11 +108,12 @@ const Banner = () => {
                     Data to enrich your{" "}
                   </chakra.span>
                   <chakra.span
+                  className=' text-transparent bg-clip-text bg-gradient-to-br from-[#EBA91F] from-[50%] via-[50%] via-[#5B89BA] to-[#7ABAE2]'
                     display={{
                       base: "block",
                       xl: "inline",
                     }}
-                    color="#666DB3"
+                    // color="#97D0E2"
                     _dark={{
                       color: "#666DB3",
                     }}
@@ -170,8 +171,7 @@ const Banner = () => {
           >
               <motion.div
                 animate={{
-                scale: [2, 1, 1],
-                rotate: [0, 0, 540],
+                scale: [3, 1, 1],
                 borderRadius: ["20%", "20%", "50%", "50%", "20%"],
                 opacity: ["0%", "10%", "20%", "30%", "40%", "50%", "60%", "70%", "80%", "90%", "100%"]
                 
@@ -180,7 +180,7 @@ const Banner = () => {
             >
 
               <div>
-                <img src={tempimage} />
+                <img className=' h-[12vh] sm:h-[15vh] md:h-[25vh] lg:h-[40vh]' src={logo} />
               </div>
     </motion.div>
 

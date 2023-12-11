@@ -5,7 +5,7 @@ import Banner2 from "../Banner2";
 import { FaFacebook, FaInstagram, FaLinkedin, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 function Team () {
-    let message = `There are many variations of passages of Lorem Ipsum available but the \n majority have suffered alteration in some injected humour.`;
+    let message = `There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some injected humour.`;
     return (
       <section class=" ">
  
@@ -14,7 +14,7 @@ function Team () {
         <div class="row">
        
           <Banner2 text={"Team"}/>
-          <div className="flex flex-wrap justify-around pt-[60px]">
+          <div className="flex flex-wrap justify-around">
 
 
             <div class="col-sm-6 w-[350px] col-md-4">

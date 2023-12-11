@@ -3,7 +3,7 @@ import React from 'react'
 const item = [1,2,3]
 const Servicecards = () => {
   return (
-    <div className='flex justify-center'>
+    <div className='flex justify-center mb-[100px]'>
     <div className='flex w-[80%] '>
     <div className='flex flex-col'>
 

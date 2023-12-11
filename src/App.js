@@ -19,7 +19,7 @@ import Services from './components/Services';
 import Swap from './components/Swap';
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-gradient-to-b from-white via-[#ddfaff] to-white">
       <Nav/>
       <Routes>
 <Route path="/" element={<Home/>}/>

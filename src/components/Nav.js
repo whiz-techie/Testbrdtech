@@ -2,6 +2,7 @@ import { IconButton, VStack, useColorModeValue, useDisclosure, chakra, Flex, But
 // import { AiOutlineMenu } from "@chakra-ui/icons" 
 import { HamburgerIcon } from '@chakra-ui/icons'
 import React from 'react'
+import logo from "./../assets/Finance_logo.png"
 import { Link } from 'react-router-dom';
 
 const Nav = () => {
@@ -31,7 +32,7 @@ const Nav = () => {
                 <VisuallyHidden>Choc</VisuallyHidden>
               </chakra.a>
               <chakra.h1 color={'black'} fontSize="xl" fontWeight="medium" ml="2">
-                logo
+                <img src={logo} />
               </chakra.h1>
             </Flex>
             <HStack display="flex" alignItems="center" spacing={1}>
@@ -55,6 +56,10 @@ const Nav = () => {
                 <a href='/team'>
                 <Button className='navbutton' color={'black'} variant="ghost">Team</Button>
                   </a>
+                  <a href='/swap'>
+                  
+                  <Button className='navbutton' color={'black'} variant=""><p className='w-[70px] h-[38px] p-[6px] rounded-[6px] text-white swapbutton'>Swap</p></Button>
+                    </a>
                   <a href='/about'>
                   
                   <Button className='navbutton' mr={10} color={'black'} variant="ghost">About</Button>
@@ -94,7 +99,7 @@ const Nav = () => {
   
                 <VStack
                 zIndex={100}
-                className='navbutton' color={'black'}
+                className='' color={'black'}
                   pos="absolute"
                   top={0}
                   left={0}
@@ -124,10 +129,17 @@ const Nav = () => {
                 <a href='/team'>
                 <Button className='navbutton' color={'black'} variant="ghost">Team</Button>
                   </a>
+
+                  <a className='' href='/swap'>
+                  
+                  <Button className=' swapbutton navbutton'color={'black'} variant=""><p className='text-white'>Swap</p></Button>
+                    </a>
+                  
                   <a href='/about'>
                   
                   <Button className='navbutton'color={'black'} variant="ghost">About</Button>
                     </a>
+
                     <a href='/contact'>
                   
                   <Button className='navbutton' color={'black'} variant="ghost">Contact Us</Button>

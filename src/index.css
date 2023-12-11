@@ -16,9 +16,9 @@ code {
     monospace;
 }
 
-.navbutton {
+/* .navbutton {
   color: 'white'
-}
+} */
 .navbutton:hover {
   color: #1A202C;
 }
@@ -36,4 +36,95 @@ code {
   background-color: blue;
   transition: 200ms ease-in-out;
 }
+/* :root {
+  --gradient: linear-gradient(
+    45deg,
+    #
+  )
+}
+.gradient-button {
+  animation: animated-gradient-background 20s infinite alternate;
+  background-image: ;
+}
+@keyframes animated-gradient-background {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+} */
+:root {
+  --gradient: linear-gradient(
+    130deg,
+    #EBA91F 30%,
+    #f3cd7c 40%
+  );
 
+}
+
+.swapbutton {
+  font-family: basic-sans, sans-serif;
+  /* min-height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.125em;
+  line-height: 1.6;
+  /* color: #333; */
+  background: #ddd;
+  background-size: 300%;
+  background-image: var(--gradient);
+  animation: bg-animation 10s infinite;
+}
+
+@keyframes bg-animation {
+  0% {background-position: left}
+  50% {background-position: right}
+  100% {background-position: left}
+}
+
+.content {
+  background: white;
+  width: 70vw;
+  padding: 3em;
+  box-shadow: 0 0 3em rgba(0,0,0,.15);
+}
+
+.title {
+  margin: 0 0 .5em;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 3rem;
+  color: #ee6352;
+  line-height: .8;
+  margin: 0;
+  
+  background-image: var(--gradient);
+  background-clip: text;
+  color: transparent;
+   /* display: inline-block; */
+  background-size: 300%;
+  transition: background-position 1s;
+}
+
+.title:hover {
+  background-position: right;
+}
+
+
+/* .fun {
+  color: white;
+  border: 0;
+  cursor: pointer;
+  padding: .5em 1.25em;
+  background: linear-gradient(90deg, #ee6352, purple, #ee6352);
+  background-size: 300%;
+  background-position: left;
+  transition: background-position 350ms;
+}
+
+.fun:hover {
+  background-position: right;
+} */

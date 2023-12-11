@@ -3,7 +3,7 @@ import React from 'react'
 const Timeline = () => {
   return (
     <div className=' pt-[30px] w-[250px]  sm:pt-[50px] sm:w-[400px]  md:w-[500px] lg:pl-[100px] lg:w-[600px] lg:pt-[60px] lg:mb-[100px]'>
-            <h1 className=' font-semibold text-[30px] '>
+            <h1 className=' font-semibold text-[#EBA91F] sm:text-[50px] text-[30px] sm:mb-[70px] mb-[40px] '>
                 ROADMAP
             </h1>
         <div className=' justify-center'>

@@ -4,8 +4,10 @@ import { motion } from "framer-motion"
 
 const Goals = (image) => {
   return (
-        <div className='flex flex-col justify-center '>
-            
+        <div className=' mt-[100px] flex flex-col justify-center '>
+            <h1 className=' font-semibold text-[#EBA91F] sm:text-[50px] text-[30px] sm:mb-[70px] mb-[40px] '>
+                GOALS
+            </h1>
             <motion.div
 
             initial={{ opacity: 0, x: -60 }}
