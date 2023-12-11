@@ -18,7 +18,7 @@ import Contactus from './components/Contactus';
 import Services from './components/Services';
 function App() {
   return (
-    <div className="App bg-gradient-to-b from-white via-blue-100 to-white">
+    <div className="App">
       <Nav/>
       <Routes>
 <Route path="/" element={<Home/>}/>
