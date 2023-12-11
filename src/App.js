@@ -16,6 +16,7 @@ import {
 import Team from './components/Sections/team';
 import Contactus from './components/Contactus';
 import Services from './components/Services';
+import Swap from './components/Swap';
 function App() {
   return (
     <div className="App">
@@ -26,6 +27,7 @@ function App() {
 <Route path='/team' element={<Team/>}/>
 <Route path='/contact' element={<Contactus/>}/>
 <Route path='/services' element={<Services/>}/>
+<Route path='/swap' element={<Swap/>}/>
   </Routes>
    
       <Footer/>
