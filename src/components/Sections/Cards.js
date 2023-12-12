@@ -13,16 +13,13 @@ const Cards = () => {
         <Card maxW='sm' className="">
           <CardBody className=" rounded-[20px]">
     <Image
-      src='https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
-      alt='Green double couch with wooden legs'
+      src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgaMLqMFyF0m2wIJ6gHkCvo3aqn0FxvpJQYuA0F0S6azKC6kX1O5Z0IbSMQ_lfSNi2J70&usqp=CAU'      alt='Green double couch with wooden legs'
       borderRadius='lg'
     />
     <Stack mt='6' spacing='3'>
-      <Heading size='md'>Living room Sofa</Heading>
+      <Heading size='md'>Unique Value Proposition</Heading>
       <Text>
-        This sofa is perfect for modern tropical spaces, baroque inspired
-        spaces, earthy toned spaces and for people who love a chic design with a
-        sprinkle of vintage design.
+        Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
       </Text>
     </Stack>
           </CardBody>
@@ -35,18 +32,16 @@ const Cards = () => {
         transition={{ ease: "easeInOut", duration: 1}}
       >
         <Card maxW='sm' className="">
-  <CardBody>
+  <CardBody className="">
     <Image
-      src='https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
-      alt='Green double couch with wooden legs'
+      src='
+      https://blog.tatanexarc.com/wp-content/uploads/2023/09/Scope-of-business-finance-Benefits-importance-Features.jpg'      alt='Green double couch with wooden legs'
       borderRadius='lg'
     />
     <Stack mt='6' spacing='3'>
-      <Heading size='md'>Living room Sofa</Heading>
+      <Heading size='md'>Concept of Gold-Backed Cryptocurrency</Heading>
       <Text>
-        This sofa is perfect for modern tropical spaces, baroque inspired
-        spaces, earthy toned spaces and for people who love a chic design with a
-        sprinkle of vintage design.
+        Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
       </Text>
 
     </Stack>
@@ -63,16 +58,14 @@ const Cards = () => {
         <Card maxW='sm' className="">
   <CardBody>
     <Image
-      src='https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy-3-bbAsxKmWnPNkV8Xrm_YGXYUkZjhSQdjD3mAM3s3LiWvAY6jFYvp4jkR6OQmQLcQs&usqp=CAU"
       alt='Green double couch with wooden legs'
       borderRadius='lg'
     />
     <Stack mt='6' spacing='3'>
-      <Heading size='md'>Living room Sofa</Heading>
+      <Heading size='md'>Company Goal</Heading>
       <Text>
-        This sofa is perfect for modern tropical spaces, baroque inspired
-        spaces, earthy toned spaces and for people who love a chic design with a
-        sprinkle of vintage design.
+        Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
       </Text>
 
     </Stack>
