@@ -159,7 +159,7 @@ const Banner = () => {
             >
 
               <div>
-                <img className=' h-[12vh] sm:h-[15vh] md:h-[25vh] lg:h-[30vh]' src={logo} />
+                <img className=' h-[12vh] sm:h-[15vh] md:h-[25vh] lg:h-[30vh] max-h-[300px] ' src={logo} />
               </div>
     </motion.div>
 

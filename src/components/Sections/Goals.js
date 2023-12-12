@@ -4,7 +4,7 @@ import logo from "./../../assets/Finance_logo.png"
 
 const Goals = (image) => {
   return (
-        <div className=' h-[120vh] sm:[100vh] flex flex-col justify-between '>
+        <div className=' max-h-[1000px] h-[120vh] sm:[100vh] flex flex-col justify-between '>
             <h1 className=' font-semibold text-[#EBA91F] sm:text-[50px] text-[30px] '>
                 GOALS
             </h1>
