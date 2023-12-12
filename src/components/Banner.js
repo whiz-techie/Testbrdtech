@@ -7,12 +7,12 @@ import tempimage from '../assets/logo192.png'
 const Banner = () => {
     const bg = useColorModeValue("transparent", "gray.800");
     return (
-      <Box pos="relative" overflow="hidden" bg={bg} mt={10}>
+      <Box className='mb-[100px]' pos="relative" overflow="hidden" bg={bg} mt={10}>
 
         
         <Box 
         className=' flex flex-col-reverse md:flex-row '
-        maxW="7xl" mx="auto">
+        maxW="" mx="auto">
           
           <Box
           className=''
@@ -171,6 +171,7 @@ const Banner = () => {
           >
               <motion.div
                 animate={{
+                
                 scale: [3, 1, 1],
                 borderRadius: ["20%", "20%", "50%", "50%", "20%"],
                 opacity: ["0%", "10%", "20%", "30%", "40%", "50%", "60%", "70%", "80%", "90%", "100%"]

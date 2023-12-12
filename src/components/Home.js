@@ -6,9 +6,12 @@ import Goals from './Sections/Goals'
 
 const Home = () => {
   return (
-    <div className=''>
+    <div className='mt-[100px]'>
         <Banner/>
+      <span className=' mt-[100px]'>
+        
         <Cards/>
+      </span>
         <div>
 
         <Goals />
