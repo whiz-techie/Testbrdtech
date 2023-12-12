@@ -314,7 +314,7 @@ const ContactForm = () => {
     </SimpleGrid>
   </Box>
 
-  <Divider
+  {/* <Divider
     my="5"
     borderColor="gray.300"
     _dark={{
@@ -324,10 +324,10 @@ const ContactForm = () => {
       base: "hidden",
       sm: "visible",
     }}
-  />
+  /> */}
 
 
-</Box>;
+</Box>
 
     </div>
   )

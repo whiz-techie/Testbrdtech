@@ -83,7 +83,7 @@ const Footer = () => {
     >
       <Flex className=' font-semibold text-[#EBA91F]' justify="start" direction="column">
         <Link href='/' textTransform="uppercase">Home</Link>
-        <Link href='/cervices' textTransform="uppercase">Services</Link>
+        <Link href='/services' textTransform="uppercase">Services</Link>
         <Link href='contact' textTransform="uppercase">Contact us</Link>
         
       </Flex>

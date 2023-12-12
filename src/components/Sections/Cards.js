@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 const Cards = () => {
   
   return (
-    <div className="lg:flex align lg:justify-around lg:mt-[20px] grid grid-cols-1 justify-around place-items-center sm:grid-cols-2 lg:grid-cols-3">
+    <div className="lg:flex align lg:justify-around grid grid-cols-1 justify-around place-items-center sm:grid-cols-2 lg:grid-cols-3">
       <motion.div
       className="max-w-[300px] pb-[30px] lg:pb-[0]"
         initial={{ opacity: 0 }}
@@ -29,7 +29,7 @@ const Cards = () => {
         </Card>
       </motion.div>
       <motion.div
-      className="max-w-[300px] "
+      className="max-w-[300px] pb-[30px] lg:pb-[0] "
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ ease: "easeInOut", duration: 1}}
@@ -80,7 +80,7 @@ const Cards = () => {
   {/* <Divider /> */}
         </Card>
       </motion.div>
-
+    
 
 
 </div>

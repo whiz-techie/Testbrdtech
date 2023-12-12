@@ -2,16 +2,15 @@ import React from 'react'
 import { Icon, IconButton, VStack, useColorModeValue, useDisclosure, chakra, Flex, Button,VisuallyHidden,HStack,Box,CloseButton } from '@chakra-ui/react';
 import { motion } from "framer-motion"
 import logo from "./../assets/Finance_logo.png"
-import tempimage from '../assets/logo192.png'
 
 const Banner = () => {
     const bg = useColorModeValue("transparent", "gray.800");
     return (
-      <Box className='mb-[100px]' pos="relative" overflow="hidden" bg={bg} mt={10}>
+      <Box className='' pos="relative" overflow="hidden" bg={bg}>
 
         
         <Box 
-        className=' flex flex-col-reverse md:flex-row '
+        className=' flex flex-col-reverse justify-between md:flex-row '
         maxW="" mx="auto">
           
           <Box
@@ -34,27 +33,6 @@ const Banner = () => {
             bg={bg}
             border="solid 1px transparent"
           >
-            
-            {/* <Icon
-              display={{
-                base: "none",
-                lg: "block",
-              }}
-              position="absolute"
-              right={0}
-              top={0}
-              bottom={0}
-              h="full"
-              w={48}
-              color={bg}
-              transform="translateX(50%)"
-              fill="currentColor"
-              viewBox="0 0 100 100"
-              preserveAspectRatio="none"
-              aria-hidden="true"
-            >
-              <polygon points="50,0 100,0 50,100 0,100" />
-            </Icon> */}
             <Box
             className='hello'
               mx="auto"
@@ -181,7 +159,7 @@ const Banner = () => {
             >
 
               <div>
-                <img className=' h-[12vh] sm:h-[15vh] md:h-[25vh] lg:h-[40vh]' src={logo} />
+                <img className=' h-[12vh] sm:h-[15vh] md:h-[25vh] lg:h-[30vh]' src={logo} />
               </div>
     </motion.div>
 

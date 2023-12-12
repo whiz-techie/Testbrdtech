@@ -6,9 +6,9 @@ import Goals from './Sections/Goals'
 
 const Home = () => {
   return (
-    <div className='mt-[100px]'>
+    <div className='flex flex-col justify-around md:justify-between h-[4000px] sm:h-[3000px]'>
         <Banner/>
-      <span className=' mt-[100px]'>
+      <span className=''>
         
         <Cards/>
       </span>
