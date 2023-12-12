@@ -10,7 +10,7 @@ const Cards = () => {
         whileInView={{ opacity: 1 }}
         transition={{ ease: "easeInOut", duration: 1}}
       >
-        <Card maxW='sm' className="">
+        <Card maxW='sm' className="min-h-[410px]">
           <CardBody className=" rounded-[20px]">
     <Image
       src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgaMLqMFyF0m2wIJ6gHkCvo3aqn0FxvpJQYuA0F0S6azKC6kX1O5Z0IbSMQ_lfSNi2J70&usqp=CAU'      alt='Green double couch with wooden legs'
@@ -31,7 +31,7 @@ const Cards = () => {
         whileInView={{ opacity: 1 }}
         transition={{ ease: "easeInOut", duration: 1}}
       >
-        <Card maxW='sm' className="">
+        <Card maxW='sm' className="min-h-[410px]">
   <CardBody className="">
     <Image
       src='
@@ -55,7 +55,7 @@ const Cards = () => {
         whileInView={{ opacity: 1 }}
         transition={{ ease: "easeInOut", duration: 1}}
       >
-        <Card maxW='sm' className="">
+        <Card maxW='sm' className="min-h-[410px]">
   <CardBody>
     <Image
       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy-3-bbAsxKmWnPNkV8Xrm_YGXYUkZjhSQdjD3mAM3s3LiWvAY6jFYvp4jkR6OQmQLcQs&usqp=CAU"
