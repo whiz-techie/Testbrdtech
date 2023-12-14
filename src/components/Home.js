@@ -6,7 +6,7 @@ import Goals from './Sections/Goals'
 
 const Home = () => {
   return (
-    <div className='flex flex-col justify-around md:justify-between h-[4000px] sm:h-[3000px]'>
+    <div className='flex flex-col justify-around md:justify-between h-[550vh] sm:h-[500vh] md:h-[450vh]'>
         <Banner/>
       <span className=''>
         

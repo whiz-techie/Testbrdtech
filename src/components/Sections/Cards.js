@@ -10,9 +10,10 @@ const Cards = () => {
         whileInView={{ opacity: 1 }}
         transition={{ ease: "easeInOut", duration: 1}}
       >
-        <Card maxW='sm' className="min-h-[410px]">
-          <CardBody className=" rounded-[20px]">
+        <Card maxW='sm' className="min-h-[200px]">
+          <CardBody className=" ">
     <Image
+    className="w-[100%] h-[150px] min-h-[130px]"
       src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgaMLqMFyF0m2wIJ6gHkCvo3aqn0FxvpJQYuA0F0S6azKC6kX1O5Z0IbSMQ_lfSNi2J70&usqp=CAU'      alt='Green double couch with wooden legs'
       borderRadius='lg'
     />
@@ -31,9 +32,10 @@ const Cards = () => {
         whileInView={{ opacity: 1 }}
         transition={{ ease: "easeInOut", duration: 1}}
       >
-        <Card maxW='sm' className="min-h-[410px]">
+        <Card maxW='sm' className="min-h-[200px]">
   <CardBody className="">
     <Image
+    className="w-[100%] h-[150px] min-h-[130px]"
       src='
       https://blog.tatanexarc.com/wp-content/uploads/2023/09/Scope-of-business-finance-Benefits-importance-Features.jpg'      alt='Green double couch with wooden legs'
       borderRadius='lg'
@@ -49,15 +51,17 @@ const Cards = () => {
   {/* <Divider /> */}
         </Card>
       </motion.div>
+      
       <motion.div
       className="max-w-[300px]"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ ease: "easeInOut", duration: 1}}
       >
-        <Card maxW='sm' className="min-h-[410px]">
+        <Card maxW='sm' className="min-h-[200px]">
   <CardBody>
     <Image
+    className="w-[100%] h-[150px] min-h-[130px]"
       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy-3-bbAsxKmWnPNkV8Xrm_YGXYUkZjhSQdjD3mAM3s3LiWvAY6jFYvp4jkR6OQmQLcQs&usqp=CAU"
       alt='Green double couch with wooden legs'
       borderRadius='lg'

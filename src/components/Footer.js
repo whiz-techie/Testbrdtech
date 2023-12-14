@@ -6,7 +6,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div >
+    <div className='w-[100%]' >
       <Box
       className=''
   bg="white"

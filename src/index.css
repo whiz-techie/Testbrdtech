@@ -57,8 +57,9 @@ code {
 :root {
   --gradient: linear-gradient(
     130deg,
-    #EBA91F 30%,
-    #f3cd7c 40%
+    #EBA91F 40%,
+    #f3cd7c 50%,
+    #EBA91F 60%
   );
 
 }
@@ -80,8 +81,10 @@ code {
 
 @keyframes bg-animation {
   0% {background-position: left}
-  50% {background-position: right}
-  100% {background-position: left}
+  20% {background-position: left}
+  30% {background-position: left}
+  60% {background-position: left}
+  100% {background-position: right}
 }
 
 .content {
@@ -89,28 +92,6 @@ code {
   width: 70vw;
   padding: 3em;
   box-shadow: 0 0 3em rgba(0,0,0,.15);
-}
-
-.title {
-  margin: 0 0 .5em;
-  text-transform: uppercase;
-  font-weight: 900;
-  font-style: italic;
-  font-size: 3rem;
-  color: #ee6352;
-  line-height: .8;
-  margin: 0;
-  
-  background-image: var(--gradient);
-  background-clip: text;
-  color: transparent;
-   /* display: inline-block; */
-  background-size: 300%;
-  transition: background-position 1s;
-}
-
-.title:hover {
-  background-position: right;
 }
 
 
